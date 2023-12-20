@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.app {
+  display: grid;
+  place-content: center;
+  height: 100dvh;
+}
+
+.typing {
+  width: 31ch;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2rem;
+  font-family: 'Input Mono', monospace;
+  white-space: nowrap;
+  animation: typing 3s steps(31), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
