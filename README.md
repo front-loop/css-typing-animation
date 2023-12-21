@@ -1,3 +1,3 @@
-# Typing Animation with Pure CSS
+# CSS Typing Animation
 
 https://codepen.io/denic/pen/GRoOxbM
